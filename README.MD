@@ -15,6 +15,10 @@ The results are stored on the scan.json file
 The Kyverno verifyImages rule uses Cosign to verify container image signatures and in-toto attestations stored in an OCI registry.
 An image can be signed with multiple signatures, for example at the organization level and at the project level.
 
+### Install cosign
+
+https://docs.sigstore.dev/cosign/installation/
+
 ### Generate cosign key
 
 To sign images, install Cosign and generate a public-private key pair.
